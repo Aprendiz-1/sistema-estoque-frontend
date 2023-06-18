@@ -1,0 +1,169 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    padding: 20px;
+
+    h1 {
+        margin-bottom: 6px;
+    }
+
+    hr {
+        width: 100%;
+    }
+}
+
+.infoContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    label {
+        width: 180px;
+        display: flex;
+        margin-bottom: 10px;
+
+        span {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 145px;
+            z-index: 99;
+            cursor: pointer;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+
+    .columnContent {
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0 20px 0;
+
+        p strong {
+            font-size: 17px;
+        }
+
+        hr {
+            width: 340px;
+            margin: 4px 0;
+        }
+    }
+
+    .inputsContent {
+        display: flex;
+
+        p {
+            margin-bottom: 2px;
+        }
+    }
+
+    input {
+        width: 280px;
+        height: 42px;
+        font-size: 15px;
+        color: #222;
+        outline: none;
+        border: 2px solid rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        padding: 0 10px;
+        margin-bottom: 5px;
+        margin-right: 8px;
+    }
+
+    button {
+        width: 340px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: cadetblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    .signOutButton {
+        width: 340px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: rgb(219, 73, 73);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+.editButons {
+    display: flex;
+    margin-top: 5px;
+
+    .saveButton {
+        width: 280px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: cadetblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .cancelButton {
+        width: 280px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: rgb(219, 73, 73);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-right: 8px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+	.container {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 30px;
+        align-items: center;
+        transition: 0.5s;
+	}
+
+    .inputsContent {
+        flex-direction: column;
+
+        input {
+            margin-right: 0;
+        }
+    }
+
+    .editButons {
+        flex-direction: column;
+
+        .cancelButton {
+            margin-right: 0;
+            margin-bottom: 5px;
+        }
+    }
+}

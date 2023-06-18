@@ -1,0 +1,42 @@
+.card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    position: absolute;
+    top: 95px;
+    right: 20px;
+
+    img {
+        width: 120px;
+        border-radius: 50%;
+    }
+
+    .user_info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    hr {
+        margin: 15px 0;
+    }
+
+    .system_infos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .card {
+        display: none;
+    }
+}

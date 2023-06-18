@@ -1,0 +1,26 @@
+.card {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    label {
+        align-self: flex-end;
+    }
+
+    h3 {
+        text-align: center;
+        color: #222;
+    }
+
+    span {
+        text-align: left;
+        font-size: 14px;
+    }
+}

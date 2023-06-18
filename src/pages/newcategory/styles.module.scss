@@ -1,0 +1,45 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    h3 {
+        color: #222;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 320px;
+        height: 42px;
+        font-size: 15px;
+        color: #222;
+        outline: none;
+        border: 2px solid rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+        padding: 0 10px;
+        margin-bottom: 5px;
+        margin-right: 8px;
+    }
+
+    button {
+        width: 320px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: cadetblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+	.container {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        transition: 0.5s;
+	}
+}

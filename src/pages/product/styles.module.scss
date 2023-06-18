@@ -1,0 +1,212 @@
+.infoContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    label {
+        width: 180px;
+        display: flex;
+        margin-bottom: 10px;
+
+        span {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: cadetblue;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 145px;
+            z-index: 99;
+            cursor: pointer;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+
+    p {
+        margin-bottom: 2px;
+    }
+
+    .rowContent {
+        width: 340px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+
+        p strong {
+            font-size: 17px;
+        }
+
+        hr {
+            width: 1px;
+            height: 28px;
+            border-color: #222;
+        }
+    }
+
+    .inputsContent {
+        display: flex;
+
+        input {
+            width: 280px;
+            height: 42px;
+            font-size: 15px;
+            color: #222;
+            outline: none;
+            border: 2px solid rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            padding: 0 10px;
+            margin-bottom: 5px;
+            margin-right: 8px;
+        }
+    }
+
+    .edit_button {
+        width: 340px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: cadetblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    .delete_button {
+        width: 340px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: rgb(219, 73, 73);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+}
+
+.editButons {
+    display: flex;
+    margin-top: 5px;
+
+    .saveButton {
+        width: 280px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: cadetblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .cancelButton {
+        width: 280px;
+        height: 42px;
+        font-size: 18px;
+        color: #fff;
+        background-color: rgb(219, 73, 73);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        margin-right: 8px;
+    }
+}
+
+.modalContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    .modalContent {
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f0f0f0;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        padding: 10px 0 20px 0;
+
+        .closeButton {
+            outline: none;
+            border: none;
+            background: none;
+            align-self: flex-end;
+            margin: 0 10px 8px 0;
+        }
+
+        span {
+            font-size: 18px;
+            text-align: center;
+            margin: 12px 0;
+        }
+
+        .confirmButton {
+            width: 90%;
+            height: 45px;
+            font-size: 18px;
+            color: #fff;
+            background-color: cadetblue;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+	.container {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px 30px;
+        align-items: center;
+        transition: 0.5s;
+	}
+
+    .infoContent {
+        padding-bottom: 30px;
+    }
+
+    .inputsContent {
+        flex-direction: column;
+
+        input {
+            margin-right: 0;
+        }
+    }
+
+    .editButons {
+        flex-direction: column;
+
+        .cancelButton {
+            margin-right: 0;
+            margin-bottom: 5px;
+        }
+    }
+}

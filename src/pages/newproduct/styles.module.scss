@@ -1,0 +1,109 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        width: 140px;
+        display: flex;
+        margin: 10px 0;
+
+        span {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 110px;
+            z-index: 99;
+            cursor: pointer;
+        }
+    
+        input[type="file"] {
+            display: none;
+        }
+    
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+
+    .inputsContent {
+        display: flex;
+        align-items: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            margin: 0 10px;
+        }
+
+        p {
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 2px;
+        }
+    
+        .text_input {
+            width: 300px;
+            height: 42px;
+            font-size: 15px;
+            color: #222;
+            outline: none;
+            border: 2px solid rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            padding: 0 10px;
+            margin-bottom: 8px;
+        }
+
+        select {
+            width: 300px;
+            height: 42px;
+            font-size: 15px;
+            color: #222;
+            outline: none;
+            border: 2px solid rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            padding: 0 10px;
+            margin-bottom: 8px;
+        }
+    
+        button {
+            width: 300px;
+            height: 42px;
+            font-size: 18px;
+            color: #fff;
+            outline: none;
+            border: none;
+            background-color: cadetblue;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+            margin-top: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+	.container {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+        transition: 0.5s;
+
+        form {
+            align-items: center;
+        }
+	}
+
+    .inputsContent {
+        flex-direction: column;
+
+        div {
+            margin: 0;
+        }
+    }
+}

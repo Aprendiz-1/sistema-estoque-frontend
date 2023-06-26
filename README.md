@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![1](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/dc9d6f0b-1268-419c-bc22-a7e7996ed2d1)
 
-## Getting Started
+![2](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/b3011e29-ef1b-42c3-af58-46505a06aef8)
 
-First, run the development server:
+![3](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/e2a1a952-c666-4c8e-87e0-da4b3395be3f)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+![4](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/ed5c0554-f0b1-4564-ba86-651e77d2701d)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![5](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/026fb452-78e3-4f15-960f-ecfe10ccc131)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![6](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/86820038-b958-45ce-9e55-30906472c028)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+![7](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/ffb66f30-5237-4f81-a8ae-dfd68e8796bd)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![8](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/efc672f2-4d85-4d7f-aad6-b0a2df59d062)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![9](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/6a795ded-c43f-4780-aa88-0061f684c414)

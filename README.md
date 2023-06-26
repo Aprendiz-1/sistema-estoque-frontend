@@ -12,6 +12,6 @@
 
 ![7](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/ffb66f30-5237-4f81-a8ae-dfd68e8796bd)
 
-![8](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/efc672f2-4d85-4d7f-aad6-b0a2df59d062)
+![8](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/dc25b117-f6bb-4728-9c8b-e5656dd06e41)
 
-![9](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/6a795ded-c43f-4780-aa88-0061f684c414)
+![9](https://github.com/Aprendiz-1/sistema-estoque-frontend/assets/82540579/2e9d7e31-3b5b-4b9b-984b-2454a13bc378)
